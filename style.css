@@ -202,7 +202,20 @@ body {
     align-content: center;
 }
 
+.pngegg img {
+    max-width: 645px;
+    width: 100%;
+}
 
+.Ctaphoto {
+    max-width: 645px;
+    width: 100%;
+}
+
+.group339 img {
+    max-width: 645px;
+    width: 100%;
+}
 
 .maincontant {
     margin-top: 58px;
@@ -1393,5 +1406,17 @@ body {
     .buttons {
         display: none;
     }
+
+
+    .cards {
+        grid-template-columns: auto;
+    }
+
+
+    .cards>div {
+        width: 100%;
+    }
+
+
 
 }
