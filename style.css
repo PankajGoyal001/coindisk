@@ -970,6 +970,12 @@ body {
     gap: 42px;
     padding: 40px 28px;
 }
+.cards-main1{
+    display: grid;
+    gap: 42px;
+    padding: 40px 28px;
+
+}
 
 .user-img {
     text-align: center;
@@ -1086,6 +1092,15 @@ body {
     width: 100%;
     display: grid;
     gap: 28px;
+}
+.information06-res{
+    display: grid;
+    gap: 18px;
+    display: none;
+}
+.information7-res{
+    display: flex;
+    gap: 13px;
 }
 
 .texthead1 {
@@ -1214,6 +1229,7 @@ body {
 }
 
 
+
 @media screen and (max-width: 1024px){
 
     /* header------------------------------------------------- */
@@ -1290,7 +1306,12 @@ body {
 .informations{
     padding-top: 40px;
 }
-
+.information06-res{
+    display: block;
+    display: grid;
+    gap: 18px;
+    margin-top: 30px;
+}
 
 }
     
@@ -1304,9 +1325,19 @@ body {
     }
 
 
+
+
+    .cards-main{
+        display: none;
+    }
+
 .informations{
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+.information2, .information3, 
+.information4 , .information5{
+    padding: 0;
 }
 
 
