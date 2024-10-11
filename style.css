@@ -32,7 +32,12 @@ body {
     padding: 0 20px;
     margin: 0% auto;
 }
-
+.logo a:hover{
+    color: darkgray;
+    transform: scale(1.1);
+    box-shadow: #12171E 5px ;
+    border-radius: 4px;
+}
 .headercontainer {
     display: flex;
     padding: 42px 0;
@@ -202,16 +207,16 @@ body {
     align-content: center;
 }
 
-.pngegg img {
-    max-width: 645px;
-    width: 100%;
-}
+
 
 .Ctaphoto {
     max-width: 645px;
     width: 100%;
 }
-
+.group339{
+    text-align: center;
+    align-content: center;
+}
 .group339 img {
     max-width: 645px;
     width: 100%;
@@ -226,6 +231,15 @@ body {
 .pngeggresponsive {
     display: none;
 }
+.pngegg{
+    align-content: center;
+    text-align: center;
+}
+.pngegg img {
+    max-width: 645px;
+    width: 100%;
+    align-content: center;
+}
 
 .pngegg2 {
     display: none;
@@ -233,9 +247,10 @@ body {
 
 .heading1 {
     display: flex;
-    gap: 308px;
+    gap: 50px;
     max-width: 1590px;
     width: 100%;
+    justify-content: space-between;
 }
 
 .textmain {
@@ -285,78 +300,37 @@ body {
 
 .cards {
     padding-top: 25px;
-    display: flex;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
     gap: 30px;
     justify-content: space-between;
     padding-bottom: 50px;
-}
 
-.card11 {
-    max-width: 240px;
-    width: 100%;
-    border: 1px solid #40476C;
-    border-radius: 4px;
-}
 
-.card12 {
-    max-width: 240px;
-    width: 100%;
-    border: 1px solid #40476C;
-    border-radius: 4px;
-}
 
-.card13 {
-    max-width: 240px;
-    width: 100%;
-    border: 1px solid #40476C;
-    border-radius: 4px;
-}
-
-.card14 {
-    max-width: 240px;
-    width: 100%;
-    border: 1px solid #40476C;
-    border-radius: 4px;
-}
-
-.card15 {
-    max-width: 240px;
-    width: 100%;
-    border: 1px solid #40476C;
-    border-radius: 4px;
-}
-
-.card16 {
-    max-width: 240px;
-    width: 100%;
-    border: 1px solid #40476C;
-    border-radius: 4px;
+    overflow-x: scroll;
 }
 
 .cardmain {
     padding: 10px 11px 10px 14px;
     display: flex;
     gap: 16px;
-}
-
-.bitcoin {
-    align-content: center;
+    border: 1px solid #40476C;
+    align-items: center;
 }
 
 .Tbitcoin {
-    align-content: center;
-    color: #CCCED9;
+    font-family: Roboto;
     font-size: 14px;
     font-weight: 400;
     line-height: 22px;
     text-align: left;
+    color: #CCCED9;
+    text-wrap: nowrap;
 }
 
-.frame {
-    max-width: 115px;
-    display: grid;
-    gap: 4px;
-}
+
 
 .amount {
     color: #F0F1F5;
@@ -370,6 +344,7 @@ body {
 .frame1 {
     display: flex;
     gap: 8px;
+    padding-top: 5px;
 }
 
 .CombinedShape {
@@ -552,14 +527,6 @@ body {
     padding: 24px 0;
 }
 
-.bitcoin {
-    color: #6A718A;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    text-align: center;
-    padding: 25.5px 0;
-}
 
 .data-price {
     color: #40476C;
@@ -783,7 +750,8 @@ body {
 
 .newitem {
     display: flex;
-    gap: 114px;
+    gap: 50px;
+    justify-content: space-between;
 }
 
 .cards02 {
@@ -806,6 +774,7 @@ body {
     display: grid;
     gap: 29px;
     color: #CCCED9;
+    margin-right: 70px;
 }
 
 .asd01 {
@@ -894,7 +863,8 @@ body {
 
 .CTA00 {
     display: flex;
-    gap: 300px;
+    gap: 20px;
+    justify-content: space-between;
 }
 
 .Ctaphoto1 {
@@ -908,7 +878,10 @@ body {
     max-width: 645px;
     width: 100%;
 }
-
+.group341{
+    text-align: center;
+    align-content: center;
+}
 .ctahead {
     color: #26306A;
     font-size: 39px;
@@ -1056,11 +1029,16 @@ body {
 
 .informations {
     display: flex;
-    /* gap: 30px; */
+    gap: 30px;
     justify-content: space-between;
     padding-top: 80px;
 }
+.text-info{
+    display: flex;
+    gap: 30px;
+    padding-top: 80px;
 
+}
 .information01 {
     max-width: 240px;
     width: 100%;
@@ -1162,16 +1140,17 @@ body {
     line-height: 26px;
     text-align: left;
 }
-
-.playstorephoto {
-    padding: 7px 0px;
-}
-
 .playstore {
     display: flex;
     gap: 10px;
+    width: 100%;
+    padding: 6px 30px 6px 20px;
+    border-radius: 4px;
+    border: 1px solid #CCCED9;
 }
-
+.playstorephoto{
+    align-content: center;
+}
 .playtext1 {
     color: #E9EAF0;
     font-size: 10px;
@@ -1192,15 +1171,6 @@ body {
     text-align: left;
     max-width: 86px;
     width: 100%;
-}
-
-.playstore {
-
-    width: 100%;
-    padding: 6px 30px 6px 20px;
-    justify-content: space-between;
-    border-radius: 4px;
-    border: 1px solid #CCCED9;
 }
 
 
@@ -1244,179 +1214,106 @@ body {
 }
 
 
+@media screen and (max-width: 1024px){
 
-@media screen and (max-width: 950px) {
     /* header------------------------------------------------- */
 
-    .logo {
+    .logo, .Users{
         display: none;
     }
-
-    .sidemenubar {
+    .header{
+        background-color: #FFFFFF;
+    }
+    .sidemenubar{
         display: block;
         display: flex;
         gap: 30px;
+        align-content: center;
     }
-
-    .Users {
-        display: none;
-    }
-
-    .header {
-        background-color: #F0F1F5;
-    }
-
-    .logotext00 {
+    .logotext00{
         color: #40476C;
     }
+    
+    /* maintext ------------------------------------------*/
 
-    .pre-button {
-        display: none;
+    .heading1{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
     }
-
-    .cards-main {
+    .textmain{
         padding: 0;
     }
 
 
+
+/* whhy choose us -------------------------------------- */
+    .advertize{
+        display: none;
+    }
+    .line86{
+        display: none;
+    }
+    .cardtext{
+        padding: 0;
+    }
+    .newitem{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .cards02{
+        display: grid;
+    }
+    
+/* CTa ------------------------------------------------*/
+
+.CTA00{
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 
+/* testimonials ---------------------------------------- */
+.pre-button{
+    display: none;
+}
 
 
+/* footer -----------------------------------------------*/
+.information05, .information06{
+    display: none;
+}
+.footerhead{
+    padding: 40px 0 20px 0;
+}
+.informations{
+    padding-top: 40px;
+}
 
 
+}
+    
+
+@media screen and (max-width: 768px) {
 
 
-
-@media screen and (max-width: 1300px) {
-
-    /* maintext----------------------------- */
-
-    .heading1 {
-        display: flex;
-        flex-direction: column-reverse;
-        gap: 40px;
-    }
-
-    .pngegg {
-        text-align: center;
-    }
-
-    .maincontant {
-        margin-top: 80px;
-    }
-
-    .textmain {
-        padding: 0;
-    }
-
-    /*  bitcoin--------------------------------------------------------------- */
-
-    .cards {
+    .cards{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    /* why choose us------------------------------------------------ */
 
-    .cards02 {
-        display: grid;
-    }
-
-    .line86 {
-        display: none;
-    }
-
-    .advertize {
-        display: none;
-    }
-
-    .advertize-res {
-        display: flex;
-        justify-content: space-between;
-        padding: 28px 0 30px 0;
-    }
-
-    .asd01 {
-        color: #8C9298;
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 18px;
-        text-align: left;
-        display: grid;
-        gap: 4px;
-    }
-
-    .newitem {
-        display: flex;
-        flex-direction: column-reverse;
-        gap: 40px;
-    }
-
-    .group339 {
-        text-align: center;
-    }
-
-    /* footer------------------------------------------ */
-
-    .information05 {
-        display: none;
-    }
-
-    .informations {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-
-    .information7 {
-        display: flex;
-    }
-
-
-    /* CTa------------------------------------------------------------------------------------------- */
-
-    .CTA00 {
-        display: flex;
-        flex-direction: column-reverse;
-        gap: 40px;
-    }
-
-
-
-
-
-
-
-
+.informations{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 
-@media screen and (max-width: 750px) {
 
-    /* maintext --------------------------------------- */
-
-
-
-
-    /* why choose us -------------------------------------------------- */
-
-
-
-    .buttons {
+    .buttons{
         display: none;
     }
-
-
-    .cards {
-        grid-template-columns: auto;
-    }
-
-
-    .cards>div {
-        width: 100%;
-    }
-
-
+    
 
 }
