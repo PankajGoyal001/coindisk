@@ -32,19 +32,22 @@ body {
     padding: 0 20px;
     margin: 0% auto;
 }
-.logo a:hover{
+
+.logo a:hover {
     color: darkgray;
     transform: scale(1.1);
-    box-shadow: #12171E 5px ;
+    box-shadow: #12171E 5px;
     border-radius: 4px;
 }
-.headercontainer {
+
+.headercontent{
     display: flex;
     padding: 42px 0;
     justify-content: space-between;
+    align-items: center;
 }
 
-.logo6copy {
+.logo-frame {
     max-width: 178px;
     width: 100%;
     align-content: center;
@@ -91,7 +94,9 @@ body {
 .logo {
     display: flex;
     gap: 52px;
-
+    max-width: 603px;
+    width: 100%;
+    justify-content: space-evenly;
 }
 
 .home-icon {
@@ -167,6 +172,8 @@ body {
     gap: 32px;
     align-items: center;
     justify-content: space-between;
+    max-width: 369px;
+    width: 100%;
 }
 
 .ctastart {
@@ -195,28 +202,30 @@ body {
 .currency {
     display: flex;
     color: #E9EAF0;
+    max-width: 148px;
+    width: 1000%;
 }
 
-.text1 {
+.currency-name {
     padding: 0 18px 0 10px;
     align-content: center;
 }
 
-.text2 {
+.currency-name1 {
     padding: 0 30px 0 10px;
     align-content: center;
 }
-
-
 
 .Ctaphoto {
     max-width: 645px;
     width: 100%;
 }
-.group339{
+
+.group339 {
     text-align: center;
     align-content: center;
 }
+
 .group339 img {
     max-width: 645px;
     width: 100%;
@@ -231,10 +240,12 @@ body {
 .pngeggresponsive {
     display: none;
 }
-.pngegg{
+
+.pngegg {
     align-content: center;
     text-align: center;
 }
+
 .pngegg img {
     max-width: 645px;
     width: 100%;
@@ -312,6 +323,7 @@ body {
     overflow-x: scroll;
 }
 
+
 .cardmain {
     padding: 10px 11px 10px 14px;
     display: flex;
@@ -330,6 +342,9 @@ body {
     text-wrap: nowrap;
 }
 
+.search {
+    width: 24px;
+}
 
 
 .amount {
@@ -365,24 +380,18 @@ body {
     text-align: right;
 }
 
-
+.slider-icon img {
+    width: 100%;
+}
 
 .contant {
     margin-top: 140px;
     background-color: #FFFFFF;
-    display: grid;
-    gap: 140px;
 }
 
-.upcominghead {
-    display: grid;
-    gap: 80px;
-}
 
 .headtext {
-    display: grid;
-    gap: 18px;
-    justify-content: center;
+    padding-bottom: 80px;
 }
 
 .upcomingtext {
@@ -402,11 +411,14 @@ body {
 .cards1 {
     display: flex;
     gap: 30px;
+    overflow: scroll;
 }
 
 .cardsinformation {
-    display: grid;
+    display: flex;
+    flex-direction: column;
     padding: 32px 18px;
+    width: 240px;
 }
 
 .bgphoto {
@@ -415,7 +427,6 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #191749;
-    width: 100%;
     border-radius: 10px;
 }
 
@@ -429,7 +440,6 @@ body {
 
 .husd-coin {
     padding: 18px 0 37px 0;
-    display: grid;
     gap: 12px;
 }
 
@@ -605,7 +615,7 @@ body {
     font-size: 18px;
     font-weight: 500;
     line-height: 26px;
-    text-align: left;
+    text-align: center;
     border-radius: 4px;
 
 }
@@ -878,10 +888,12 @@ body {
     max-width: 645px;
     width: 100%;
 }
-.group341{
+
+.group341 {
     text-align: center;
     align-content: center;
 }
+
 .ctahead {
     color: #26306A;
     font-size: 39px;
@@ -970,7 +982,8 @@ body {
     gap: 42px;
     padding: 40px 28px;
 }
-.cards-main1{
+
+.cards-main1 {
     display: grid;
     gap: 42px;
     padding: 40px 28px;
@@ -1010,6 +1023,10 @@ body {
     justify-content: center;
 }
 
+.pagination-photo01 {
+    display: none;
+}
+
 .downloader {
     width: Fixed (170px)px;
     height: Hug (50px)px;
@@ -1039,12 +1056,14 @@ body {
     justify-content: space-between;
     padding-top: 80px;
 }
-.text-info{
+
+.text-info {
     display: flex;
     gap: 30px;
     padding-top: 80px;
 
 }
+
 .information01 {
     max-width: 240px;
     width: 100%;
@@ -1093,12 +1112,14 @@ body {
     display: grid;
     gap: 28px;
 }
-.information06-res{
+
+.information06-res {
     display: grid;
     gap: 18px;
     display: none;
 }
-.information7-res{
+
+.information7-res {
     display: flex;
     gap: 13px;
 }
@@ -1155,6 +1176,7 @@ body {
     line-height: 26px;
     text-align: left;
 }
+
 .playstore {
     display: flex;
     gap: 10px;
@@ -1163,9 +1185,11 @@ body {
     border-radius: 4px;
     border: 1px solid #CCCED9;
 }
-.playstorephoto{
+
+.playstorephoto {
     align-content: center;
 }
+
 .playtext1 {
     color: #E9EAF0;
     font-size: 10px;
@@ -1228,98 +1252,116 @@ body {
     transform: scale(1.1);
 }
 
+@media screen and (max-width: 1630px) {}
 
-
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
 
     /* header------------------------------------------------- */
 
-    .logo, .Users{
+    .logo,
+    .Users {
         display: none;
     }
-    .header{
+
+    .header {
         background-color: #FFFFFF;
     }
-    .sidemenubar{
+
+    .sidemenubar {
         display: block;
         display: flex;
         gap: 30px;
-        align-content: center;
+        align-items: center;
     }
-    .logotext00{
+
+    .logotext00 {
         color: #40476C;
     }
-    
-    /* maintext ------------------------------------------*/
 
-    .heading1{
+    .headercontent {
+        padding: 30px 0;
+    }
+
+    /* maintext ------------------------------------------*/
+    .heading1 {
         display: flex;
         flex-direction: column-reverse;
         text-align: center;
     }
-    .textmain{
+
+    .textmain {
         padding: 0;
     }
 
-
-
-/* whhy choose us -------------------------------------- */
-    .advertize{
+    /* whhy choose us -------------------------------------- */
+    .advertize {
         display: none;
     }
-    .line86{
+
+    .line86 {
         display: none;
     }
-    .cardtext{
+
+    .cardtext,
+    .cardheading {
         padding: 0;
+        display: grid;
+        gap: 18px;
     }
-    .newitem{
+
+    .newitem {
         margin-top: 30px;
         display: flex;
         flex-direction: column-reverse;
     }
-    .cards02{
+
+    .cards02 {
         display: grid;
+        padding-bottom: 40px;
     }
-    
-/* CTa ------------------------------------------------*/
 
-.CTA00{
-    display: flex;
-    flex-direction: column-reverse;
-}
+    /* CTa ------------------------------------------------*/
 
-
-/* testimonials ---------------------------------------- */
-.pre-button{
-    display: none;
-}
+    .CTA00 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 
 
-/* footer -----------------------------------------------*/
-.information05, .information06{
-    display: none;
-}
-.footerhead{
-    padding: 40px 0 20px 0;
-}
-.informations{
-    padding-top: 40px;
-}
-.information06-res{
-    display: block;
-    display: grid;
-    gap: 18px;
-    margin-top: 30px;
-}
+    /* testimonials ---------------------------------------- */
+    .pre-button {
+        display: none;
+    }
+
+
+    /* footer -----------------------------------------------*/
+    .information05,
+    .information06 {
+        display: none;
+    }
+
+    .footerhead {
+        padding: 40px 0 20px 0;
+    }
+
+    .informations {
+        padding-top: 40px;
+    }
+
+    .information06-res {
+        display: block;
+        display: grid;
+        gap: 18px;
+        margin-top: 30px;
+    }
 
 }
-    
+
 
 @media screen and (max-width: 768px) {
 
 
-    .cards{
+    .cards {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -1327,24 +1369,265 @@ body {
 
 
 
-    .cards-main{
+    .cards-main {
         display: none;
     }
 
-.informations{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-.information2, .information3, 
-.information4 , .information5{
-    padding: 0;
-}
+    .informations {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .information2,
+    .information3,
+    .information4,
+    .information5 {
+        padding: 0;
+    }
 
 
 
-    .buttons{
+    .buttons {
         display: none;
     }
-    
 
+
+}
+
+
+@media screen and (max-width: 550px) {
+
+    /* maintext ---------------------------------*/
+
+    .text01 {
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: 0.02em;
+        text-align: center;
+    }
+
+    .text02 {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: center;
+    }
+
+    .ctastart {
+        width: 100%;
+    }
+
+    .pngegg img {
+        max-width: 279px;
+        width: 100%;
+    }
+
+    /* bitcoin ----------------------*/
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-top: 40px;
+    }
+
+    .cardmain {
+        border: none;
+        display: grid;
+        gap: 12px;
+        padding-top: 4px;
+    }
+
+    /* trending ---------------------------*/
+    .maintext,
+    .title01 {
+        display: none;
+    }
+
+    .titles {
+        justify-content: space-around;
+        gap: 8px;
+    }
+
+    .maintext-res {
+        width: 100%;
+    }
+
+    .bitcoin {
+        color: #6A718A;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: left;
+    }
+
+    .heading01,
+    .data-24h,
+    .data-volume {
+        text-align: left;
+    }
+
+    .data-name {
+        color: #40476C;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+    }
+
+    .viewmore {
+        width: 100%;
+    }
+
+    /* why choose us ----------------------------- */
+    .header1 {
+        padding-top: 40px;
+    }
+
+    .header01 {
+        font-size: 33px;
+        font-weight: 600;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        text-align: left;
+    }
+
+    .group339 img {
+        max-width: 223px;
+        width: 100%;
+    }
+
+    .cardhead {
+        font-size: 19px;
+        font-weight: 600;
+        line-height: 23px;
+        letter-spacing: 0.02em;
+        text-align: left;
+    }
+
+    .cardimfo {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: left;
+    }
+
+    .textlorem {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+    }
+
+    .cardimportant {
+        display: grid;
+        gap: 8px;
+    }
+
+    /* CTa ---------------------------------------------*/
+    .contant {
+        margin-top: 40px;
+    }
+
+    .Ctaphoto {
+        max-width: 225px;
+        width: 100%;
+    }
+
+    .ctahead {
+        font-size: 33px;
+        font-weight: 600;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        text-align: left;
+    }
+
+    .ctatext01 {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+    }
+
+    .CTABUTTON {
+        text-align: center;
+        width: 100%;
+    }
+
+    .cta01 {
+        padding-bottom: 0;
+    }
+
+    /* testimonals --------------------------------*/
+    .Testimonialshead {
+        font-size: 33px;
+        font-weight: 600;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        text-align: left;
+    }
+
+    .linebar87 {
+        text-align: left;
+    }
+
+    .cards-main1 {
+        padding: 24px 14px;
+        display: grid;
+        gap: 24px;
+    }
+
+    .hero-photo {
+        display: flex;
+        align-items: center;
+    }
+
+    .user-img img {
+        max-width: 68px;
+        width: 100%;
+    }
+
+    .sophia-text {
+        font-size: 19px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        text-align: center;
+    }
+
+    .cards-info {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22px;
+        text-align: left;
+    }
+
+    .Testimonials {
+        display: grid;
+        gap: 40px;
+    }
+
+    .pagination-photo1 {
+        display: none;
+    }
+
+    .pagination-photo01 {
+        display: block;
+    }
+
+
+    /* footer ------------------------------*/
+    .allright {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 30px;
+        padding: 20px 0;
+    }
+
+    .icons {
+        justify-content: center;
+    }
+
+    .allrighttext1 {
+        text-align: center;
+    }
 }
