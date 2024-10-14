@@ -40,7 +40,7 @@ body {
     border-radius: 4px;
 }
 
-.headercontent{
+.headercontent {
     display: flex;
     padding: 42px 0;
     justify-content: space-between;
@@ -387,6 +387,7 @@ body {
 .contant {
     margin-top: 140px;
     background-color: #FFFFFF;
+    background-color: lightslategrey;
 }
 
 
@@ -1293,6 +1294,16 @@ body {
         padding: 0;
     }
 
+    /* startjourney -----------------------------------------*/
+    .frame362 {
+        padding: 60px 30px 60px 20px;
+        gap: 35px;
+    }
+
+    .starttrading {
+        display: none;
+    }
+
     /* whhy choose us -------------------------------------- */
     .advertize {
         display: none;
@@ -1385,7 +1396,36 @@ body {
         padding: 0;
     }
 
+    /* startjourney ----------------------------------------------*/
+    .frame362 {
+        padding: 30px 15px 30px 14px;
+        gap: 35px;
+    }
 
+    .heroimg {
+        max-width: 32px;
+        width: 100%;
+    }
+
+    .creatacount1 {
+        display: block;
+    }
+
+    .creatacount {
+        display: none;
+    }
+
+    .sign {
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 14px;
+        text-align: left;
+    }
+
+    .crad01 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 
     .buttons {
         display: none;
@@ -1629,5 +1669,15 @@ body {
 
     .allrighttext1 {
         text-align: center;
+    }
+
+    /* startjourney -------------------------------*/
+    .frame362 {
+        padding: 24px 8px 23px 14px;
+        gap: 24px;
+    }
+
+    .Creat {
+        gap: 12px;
     }
 }
