@@ -72,7 +72,6 @@ body {
 .logotext00 {
     display: flex;
     color: #FFFFFF;
-
 }
 
 .logotext01 {
@@ -128,7 +127,6 @@ body {
     padding: 16px 20px 16px 20px;
     border: none;
     line-height: 26px;
-    /* font-size: 18px; */
     color: #FFFFFF;
     border-radius: 4px;
 }
@@ -148,7 +146,6 @@ body {
     width: 100%;
     display: flex;
     gap: 52px;
-    /* padding: 58px 220px; */
     align-items: center;
     text-align: center;
     justify-content: center;
@@ -219,17 +216,10 @@ body {
 .Ctaphoto {
     max-width: 645px;
     width: 100%;
+    align-items: center;
 }
 
-.group339 {
-    text-align: center;
-    align-content: center;
-}
-
-.group339 img {
-    max-width: 645px;
-    width: 100%;
-}
+/* maintext ----------------------------------------------------*/
 
 .maincontant {
     margin-top: 58px;
@@ -252,10 +242,6 @@ body {
     align-content: center;
 }
 
-.pngegg2 {
-    display: none;
-}
-
 .heading1 {
     display: flex;
     gap: 50px;
@@ -270,7 +256,6 @@ body {
     width: 100%;
     display: grid;
     gap: 60px;
-
 }
 
 .text00 {
@@ -306,9 +291,7 @@ body {
     text-align: left;
 }
 
-
-
-
+/* bitcoin ----------------------------------------------*/
 .cards {
     padding-top: 25px;
     /* display: flex; */
@@ -317,12 +300,8 @@ body {
     gap: 30px;
     justify-content: space-between;
     padding-bottom: 50px;
-
-
-
     overflow-x: scroll;
 }
-
 
 .cardmain {
     padding: 10px 11px 10px 14px;
@@ -330,6 +309,7 @@ body {
     gap: 16px;
     border: 1px solid #40476C;
     align-items: center;
+    border-radius: 4px;
 }
 
 .Tbitcoin {
@@ -345,7 +325,6 @@ body {
 .search {
     width: 24px;
 }
-
 
 .amount {
     color: #F0F1F5;
@@ -380,7 +359,8 @@ body {
     text-align: right;
 }
 
-.slider-icon img {
+/* upcoming -------------------------------------------------*/
+.slider-icon {
     width: 100%;
 }
 
@@ -389,9 +369,9 @@ body {
     background-color: #FFFFFF;
 }
 
-
 .headtext {
     padding-bottom: 80px;
+    text-align: center;
 }
 
 .upcomingtext {
@@ -403,44 +383,32 @@ body {
     text-align: center;
 }
 
-.upline87 {
-    text-align: center;
-
-}
-
 .cards1 {
     display: flex;
     gap: 30px;
     overflow: scroll;
+    padding-bottom: 80px;
 }
 
 .cardsinformation {
     display: flex;
+    gap: 18px;
     flex-direction: column;
-    padding: 32px 18px;
-    width: 240px;
+    align-items: center;
 }
 
 .bgphoto {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: #191749;
     border-radius: 10px;
+    padding: 32px 18px;
+    max-width: 240px;
+    width: 100%;
 }
 
 .card-logo {
     text-align: center;
-}
-
-.frame-360 {
-    pad: 32px 82px 18px 82px;
-}
-
-.husd-coin {
-    padding: 18px 0 37px 0;
-    gap: 12px;
+    max-width: 76px;
+    width: 100%;
 }
 
 .husd-coin-head {
@@ -448,8 +416,8 @@ body {
     font-size: 23px;
     font-weight: 600;
     line-height: 32px;
-    letter-spacing: 0.02em;
     text-align: center;
+    padding-bottom: 12px;
 }
 
 .husd-coin-text {
@@ -461,7 +429,11 @@ body {
 }
 
 .live {
-    text-align: center;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    padding-top: 37px;
+    align-items: center;
 }
 
 .textlive {
@@ -486,12 +458,11 @@ body {
     line-height: 24px;
     text-align: left;
     color: #25A1FF;
+    max-width: 141px;
+    width: 100%;
 }
 
-
-
-
-
+/* trending ---------------------------------------------------*/
 .titles {
     max-width: 506px;
     width: 100%;
@@ -523,6 +494,10 @@ body {
     width: 100%;
 }
 
+.maintext-res {
+    display: none;
+}
+
 .maintext,
 .tablecards {
     border: 1px solid #E9EAF0;
@@ -537,7 +512,6 @@ body {
     padding: 24px 0;
 }
 
-
 .data-price {
     color: #40476C;
     font-size: 18px;
@@ -545,7 +519,6 @@ body {
     line-height: 32px;
     text-align: center;
     padding: 22.5px 0;
-
 }
 
 .data-24h {
@@ -555,7 +528,6 @@ body {
     line-height: 26px;
     text-align: center;
     padding: 25.5px 0;
-
 }
 
 .data-low {
@@ -635,11 +607,7 @@ body {
     align-content: center;
 }
 
-
-
-
-
-
+/* startjourney --------------------------------------*/
 .steps {
     display: grid;
     gap: 18px;
@@ -653,7 +621,10 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
 }
-
+.heroimg{
+    max-width: 38px;
+    width: 100%;
+}
 .line87 {
     text-align: center;
 }
@@ -731,12 +702,7 @@ body {
     text-align: center;
 }
 
-.heroimg1 {
-    display: none;
-}
-
-
-
+/* why choose us -----------------------------------------------------*/
 .contant2 {
     background-image: url(./images/banner-background.png);
     background-color: #161D26;
@@ -749,7 +715,7 @@ body {
     padding-top: 120px;
 }
 
-.header01 {
+.header-name{
     color: #FFFFFF;
     font-size: 39px;
     font-weight: 600;
@@ -767,17 +733,9 @@ body {
 .cards02 {
     margin-top: 22px;
     display: flex;
-    padding-bottom: 100px;
-    /* justify-content: space-between; */
-}
-
-.advertize-res {
-    display: none;
 }
 
 .advertize {
-    max-width: 169px;
-    width: 100%;
     max-height: 208px;
     height: 100%;
     margin-top: 58px;
@@ -834,6 +792,16 @@ body {
     text-align: left;
 }
 
+.group339 {
+    text-align: center;
+    align-content: center;
+}
+
+.group339 img {
+    max-width: 645px;
+    width: 100%;
+}
+
 .cardimfo1 {
     color: #AEB1BF;
     font-size: 12px;
@@ -871,6 +839,7 @@ body {
     display: none;
 }
 
+/* CTa ----------------------------------------------------------*/
 .CTA00 {
     display: flex;
     gap: 20px;
@@ -890,8 +859,7 @@ body {
 }
 
 .group341 {
-    text-align: center;
-    align-content: center;
+    
 }
 
 .ctahead {
@@ -929,16 +897,19 @@ body {
     font-size: 18px;
     font-weight: 500;
     line-height: 26px;
-    text-align: left;
+    text-align: center;
     border-radius: 4px;
+    max-width: 177px;
+    width: 100%;
 }
 
-
-
-
+/* testimonals ---------------------------------------------------------*/
 .Testimonialsheading {
-    display: grid;
+    display: flex;
     gap: 18px;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
 }
 
 .Testimonialshead {
@@ -949,13 +920,6 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
 }
-
-.Testimonials {
-    display: grid;
-    gap: 80px;
-
-}
-
 .linebar87 {
     align-items: center;
     text-align: center;
@@ -971,6 +935,7 @@ body {
     width: 100%;
     display: flex;
     gap: 30px;
+    padding-bottom: 80px;
 }
 
 .pre-button {
@@ -989,14 +954,11 @@ body {
     padding: 40px 28px;
 
 }
-
-.user-img {
-    text-align: center;
-}
-
 .hero-photo {
     display: grid;
     gap: 18px;
+    text-align: center;
+    justify-content: center;
 }
 
 .cards-info {
@@ -1037,13 +999,7 @@ body {
     opacity: 0px;
 }
 
-
-/*  */
-
-
-
-
-
+/* footer ----------------------------------------------------------*/
 .footerhead {
     display: flex;
     gap: 4px;
@@ -1053,8 +1009,8 @@ body {
 .informations {
     display: flex;
     gap: 30px;
-    justify-content: space-between;
     padding-top: 80px;
+    justify-content: center;
 }
 
 .text-info {
@@ -1069,6 +1025,9 @@ body {
     width: 100%;
     display: grid;
     gap: 28px;
+}
+.informations :hover{
+    color: rgb(0, 0, 255);
 }
 
 .information01 {
@@ -1184,12 +1143,8 @@ body {
     padding: 6px 30px 6px 20px;
     border-radius: 4px;
     border: 1px solid #CCCED9;
+    align-items: center;
 }
-
-.playstorephoto {
-    align-content: center;
-}
-
 .playtext1 {
     color: #E9EAF0;
     font-size: 10px;
@@ -1212,11 +1167,7 @@ body {
     width: 100%;
 }
 
-
-
-
-
-
+/* copyright ----------------------------------------------*/
 
 .contant3 {
     padding-top: 0;
@@ -1227,9 +1178,11 @@ body {
     display: flex;
     gap: 10px;
     padding: 40px 0;
+    justify-content: space-between;
+
 }
 
-.allrighttext1 {
+.allrighttext {
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 400;
@@ -1237,10 +1190,6 @@ body {
     text-align: left;
 }
 
-.allrighttext {
-    max-width: 1396px;
-    width: 100%;
-}
 
 .icons {
     display: flex;
@@ -1252,12 +1201,10 @@ body {
     transform: scale(1.1);
 }
 
-@media screen and (max-width: 1630px) {}
 
 @media screen and (max-width: 1024px) {
 
     /* header------------------------------------------------- */
-
     .logo,
     .Users {
         display: none;
@@ -1305,7 +1252,17 @@ body {
 
     /* whhy choose us -------------------------------------- */
     .advertize {
-        display: none;
+        display: flex;
+        margin: 0;
+        gap: 24px;
+        justify-content: space-between;
+    }
+    .asd01{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: left; 
+        color: #8C9298;       
     }
 
     .line86 {
@@ -1323,18 +1280,30 @@ body {
         margin-top: 30px;
         display: flex;
         flex-direction: column-reverse;
+        align-items: center;
     }
 
     .cards02 {
         display: grid;
         padding-bottom: 40px;
+        margin-top: 28px;
     }
+    .asd01{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+        }
 
     /* CTa ------------------------------------------------*/
-
     .CTA00 {
         display: flex;
         flex-direction: column-reverse;
+        align-items: center;
+    }
+    .CTABUTTON {
+        text-align: center;
+        width: 100%;
+        max-width: 650px;
     }
 
 
@@ -1342,7 +1311,6 @@ body {
     .pre-button {
         display: none;
     }
-
 
     /* footer -----------------------------------------------*/
     .information05,
@@ -1365,19 +1333,22 @@ body {
         margin-top: 30px;
     }
 
-}
-
-
-@media screen and (max-width: 768px) {
-
-
-    .cards {
+    /* upcoming ---------------------------------------------------*/
+    .cards1 {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    .slider-icon {
+        display: none;
+    }
+}
 
-
+@media screen and (max-width: 768px) {
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 
     .cards-main {
         display: none;
@@ -1430,14 +1401,34 @@ body {
         display: none;
     }
 
+    /* upcoming ---------------------------------------------------*/
+    .cards1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-bottom: 40px;
+    }
 
+    .cardsinformation {
+        flex-direction: row;
+        gap: 8px;
+    }
+
+    .live {
+        padding-top: 20px;
+    }
+
+    .husd-coin-head {
+        padding: 0;
+    }
+
+    .husd-coin-text {
+        display: none;
+    }
 }
-
 
 @media screen and (max-width: 550px) {
 
     /* maintext ---------------------------------*/
-
     .text01 {
         font-size: 34px;
         font-weight: 700;
@@ -1473,6 +1464,7 @@ body {
         border: none;
         display: grid;
         gap: 12px;
+        border-radius: 4px;
         padding-top: 4px;
     }
 
@@ -1499,6 +1491,10 @@ body {
         text-align: left;
     }
 
+    .maintext-res {
+        display: block;
+    }
+
     .heading01,
     .data-24h,
     .data-volume {
@@ -1522,7 +1518,7 @@ body {
         padding-top: 40px;
     }
 
-    .header01 {
+    .header-name{
         font-size: 33px;
         font-weight: 600;
         line-height: 40px;
@@ -1568,7 +1564,7 @@ body {
     }
 
     .Ctaphoto {
-        max-width: 225px;
+        max-width: 255px;
         width: 100%;
     }
 
@@ -1586,14 +1582,9 @@ body {
         line-height: 22px;
         text-align: left;
     }
-
-    .CTABUTTON {
-        text-align: center;
-        width: 100%;
-    }
-
     .cta01 {
-        padding-bottom: 0;
+        padding: 40px 0 0 0;
+        gap: 40px;
     }
 
     /* testimonals --------------------------------*/
@@ -1604,7 +1595,13 @@ body {
         letter-spacing: 0.02em;
         text-align: left;
     }
-
+    .Testimonialsheading{
+        padding-bottom: 40px;
+        justify-content: left;
+    }
+    .cards-00{
+        padding-bottom: 40px;
+    }
     .linebar87 {
         text-align: left;
     }
@@ -1620,7 +1617,7 @@ body {
         align-items: center;
     }
 
-    .user-img img {
+    .user-img{
         max-width: 68px;
         width: 100%;
     }
@@ -1639,12 +1636,6 @@ body {
         line-height: 22px;
         text-align: left;
     }
-
-    .Testimonials {
-        display: grid;
-        gap: 40px;
-    }
-
     .pagination-photo1 {
         display: none;
     }
@@ -1652,7 +1643,6 @@ body {
     .pagination-photo01 {
         display: block;
     }
-
 
     /* footer ------------------------------*/
     .allright {
@@ -1666,8 +1656,16 @@ body {
         justify-content: center;
     }
 
+    /* copyright ----------------------------------*/
     .allrighttext1 {
         text-align: center;
+    }
+    .playstore{
+        padding: 6px 23px 6px 18px;
+    }
+    .contant2{
+        background-color: #161D26;
+        background-image: none;
     }
 
     /* startjourney -------------------------------*/
@@ -1678,5 +1676,60 @@ body {
 
     .Creat {
         gap: 12px;
+    }
+
+    /* upcoming ---------------------------------------------------*/
+    .card-logo {
+        max-width: 30px;
+        width: 100%;
+    }
+
+    .husd-coin-head {
+        font-size: 19px;
+        font-weight: 600;
+        line-height: 23px;
+        letter-spacing: 0.02em;
+        text-align: center;
+    }
+
+    .live {
+        padding-top: 18px;
+        text-align: left;
+        gap: 4px;
+        align-items: flex-start;
+    }
+
+    .bgphoto {
+        padding: 24px 12px;
+        max-width: 161px;
+        width: 100%;
+    }
+
+    .textlive {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: center;
+    }
+
+    .time {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: center;
+    }
+
+    .upcomingtext {
+        font-size: 33px;
+        font-weight: 600;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        text-align: left;
+    }
+
+    .headtext {
+        padding-bottom: 32px;
+        text-align: left;
+
     }
 }
