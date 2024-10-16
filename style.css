@@ -909,7 +909,6 @@ body {
     max-width: 180px;
     width: 100%;
     border: 2px solid transparent;
-
 }
 
 .ctabutton:hover {
@@ -1244,6 +1243,14 @@ body {
 
 .icons:hover {
     transform: scale(1.1);
+}
+
+.ctabutton,
+.viewmore,
+.creatbutton,
+.ctastart,
+.home-icon,.icons{
+    cursor: pointer;
 }
 
 
