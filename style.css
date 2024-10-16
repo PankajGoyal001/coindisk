@@ -131,9 +131,9 @@ body {
     border-radius: 4px;
 }
 
-.CTA :hover {
+.creatbutton:hover {
     transform: scale(0.9);
-    box-shadow: #CCCED9 5px 3px 4px 3px;
+    box-shadow: #CCCED9 4px 2px 6px 2px;
 }
 
 .links a {
@@ -292,6 +292,14 @@ body {
 }
 
 /* bitcoin ----------------------------------------------*/
+.bitcoin {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: #6A718A;
+}
+
 .cards {
     padding-top: 25px;
     /* display: flex; */
@@ -366,7 +374,8 @@ body {
 
 .contant {
     margin-top: 140px;
-    background-color: #FFFFFF;
+    backdrop-filter: blur(140px);
+    background: #FFFFFF;
 }
 
 .headtext {
@@ -593,7 +602,8 @@ body {
 }
 
 .viewbutton :hover {
-    transform: scale(1.2);
+    transform: scale(0.9);
+    transition: 1s;
     color: black;
     box-shadow: #40476C 5px 10px 3px;
 
@@ -609,8 +619,12 @@ body {
 
 /* startjourney --------------------------------------*/
 .steps {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     gap: 18px;
+    padding-bottom: 80px;
+
 }
 
 .step {
@@ -621,17 +635,10 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
 }
-.heroimg{
+
+.heroimg {
     max-width: 38px;
     width: 100%;
-}
-.line87 {
-    text-align: center;
-}
-
-.startjourney {
-    display: grid;
-    gap: 80px;
 }
 
 .crad01 {
@@ -650,6 +657,11 @@ body {
     padding: 100px 88px 102px 50px;
     display: grid;
     gap: 48px;
+}
+
+.frame01 :hover {
+    transition: 1s;
+    box-shadow: 3px 4px 12px 1px #00000040;
 }
 
 .Creat {
@@ -698,8 +710,8 @@ body {
 }
 
 .icon84 {
-    align-content: center;
     text-align: center;
+    align-items: center;
 }
 
 /* why choose us -----------------------------------------------------*/
@@ -715,7 +727,7 @@ body {
     padding-top: 120px;
 }
 
-.header-name{
+.header-name {
     color: #FFFFFF;
     font-size: 39px;
     font-weight: 600;
@@ -728,6 +740,8 @@ body {
     display: flex;
     gap: 50px;
     justify-content: space-between;
+    padding-bottom: 100px;
+    align-items: center;
 }
 
 .cards02 {
@@ -792,12 +806,7 @@ body {
     text-align: left;
 }
 
-.group339 {
-    text-align: center;
-    align-content: center;
-}
-
-.group339 img {
+.data-secourity {
     max-width: 645px;
     width: 100%;
 }
@@ -858,9 +867,7 @@ body {
     width: 100%;
 }
 
-.group341 {
-    
-}
+.group341 {}
 
 .ctahead {
     color: #26306A;
@@ -889,8 +896,8 @@ body {
     text-align: left;
 }
 
-.CTABUTTON {
-    background-image: linear-gradient(to left, #0070E4, #25A1FF);
+.ctabutton {
+    background: linear-gradient(to left, #0070E4, #25A1FF);
     color: #FFFFFF;
     border: none;
     padding: 16px 36px;
@@ -899,8 +906,19 @@ body {
     line-height: 26px;
     text-align: center;
     border-radius: 4px;
-    max-width: 177px;
+    max-width: 180px;
     width: 100%;
+    border: 2px solid transparent;
+
+}
+
+.ctabutton:hover {
+    background: linear-gradient(to left, #ffffff, #ffffff);
+    border: 2px solid #0a2719;
+    border-radius: 4px;
+    color: black;
+    background-color: white;
+    transition: 1s;
 }
 
 /* testimonals ---------------------------------------------------------*/
@@ -912,6 +930,12 @@ body {
     padding-bottom: 80px;
 }
 
+.contant01 {
+    margin-top: 140px;
+    background: linear-gradient(94.21deg, rgba(232, 170, 46, 0.16) 3.29%, rgba(255, 0, 214, 0.16) 97.52%);
+    backdrop-filter: blur(140px)
+}
+
 .Testimonialshead {
     color: #26306A;
     font-size: 39px;
@@ -920,6 +944,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
 }
+
 .linebar87 {
     align-items: center;
     text-align: center;
@@ -942,18 +967,36 @@ body {
     align-content: center;
 }
 
+.pre-button:hover {
+    transform: scale(0.8);
+}
+
 .cards-main {
     display: grid;
     gap: 42px;
     padding: 40px 28px;
+    opacity: 60%;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+
+}
+
+.cards-main:hover,
+.cards-main1:hover {
+    box-shadow: 3px 4px 12px 1px #00000040;
+    transition: 0.5s;
+
 }
 
 .cards-main1 {
     display: grid;
     gap: 42px;
     padding: 40px 28px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
 
 }
+
 .hero-photo {
     display: grid;
     gap: 18px;
@@ -1026,7 +1069,8 @@ body {
     display: grid;
     gap: 28px;
 }
-.informations :hover{
+
+.informations :hover {
     color: rgb(0, 0, 255);
 }
 
@@ -1145,6 +1189,7 @@ body {
     border: 1px solid #CCCED9;
     align-items: center;
 }
+
 .playtext1 {
     color: #E9EAF0;
     font-size: 10px;
@@ -1257,12 +1302,13 @@ body {
         gap: 24px;
         justify-content: space-between;
     }
-    .asd01{
+
+    .asd01 {
         font-size: 12px;
         font-weight: 400;
         line-height: 18px;
-        text-align: left; 
-        color: #8C9298;       
+        text-align: left;
+        color: #8C9298;
     }
 
     .line86 {
@@ -1280,7 +1326,7 @@ body {
         margin-top: 30px;
         display: flex;
         flex-direction: column-reverse;
-        align-items: center;
+
     }
 
     .cards02 {
@@ -1288,11 +1334,12 @@ body {
         padding-bottom: 40px;
         margin-top: 28px;
     }
-    .asd01{
+
+    .asd01 {
         flex-direction: column;
         align-items: flex-start;
         gap: 4px;
-        }
+    }
 
     /* CTa ------------------------------------------------*/
     .CTA00 {
@@ -1300,6 +1347,7 @@ body {
         flex-direction: column-reverse;
         align-items: center;
     }
+
     .CTABUTTON {
         text-align: center;
         width: 100%;
@@ -1405,7 +1453,8 @@ body {
     .cards1 {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        padding-bottom: 40px;
+        padding-bottom: 0;
+        gap: 13px;
     }
 
     .cardsinformation {
@@ -1479,10 +1528,6 @@ body {
         gap: 8px;
     }
 
-    .maintext-res {
-        width: 100%;
-    }
-
     .bitcoin {
         color: #6A718A;
         font-size: 12px;
@@ -1499,6 +1544,15 @@ body {
     .data-24h,
     .data-volume {
         text-align: left;
+        margin-right: 10px;
+    }
+
+    .title1 {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 17px;
+        text-align: left;
+        padding: 12px 20px;
     }
 
     .data-name {
@@ -1518,7 +1572,7 @@ body {
         padding-top: 40px;
     }
 
-    .header-name{
+    .header-name {
         font-size: 33px;
         font-weight: 600;
         line-height: 40px;
@@ -1582,6 +1636,7 @@ body {
         line-height: 22px;
         text-align: left;
     }
+
     .cta01 {
         padding: 40px 0 0 0;
         gap: 40px;
@@ -1595,13 +1650,16 @@ body {
         letter-spacing: 0.02em;
         text-align: left;
     }
-    .Testimonialsheading{
+
+    .Testimonialsheading {
         padding-bottom: 40px;
-        justify-content: left;
+        align-items: flex-start;
     }
-    .cards-00{
+
+    .cards-00 {
         padding-bottom: 40px;
     }
+
     .linebar87 {
         text-align: left;
     }
@@ -1617,7 +1675,7 @@ body {
         align-items: center;
     }
 
-    .user-img{
+    .user-img {
         max-width: 68px;
         width: 100%;
     }
@@ -1636,6 +1694,7 @@ body {
         line-height: 22px;
         text-align: left;
     }
+
     .pagination-photo1 {
         display: none;
     }
@@ -1650,6 +1709,7 @@ body {
         flex-direction: column-reverse;
         gap: 30px;
         padding: 20px 0;
+        align-items: center;
     }
 
     .icons {
@@ -1660,10 +1720,12 @@ body {
     .allrighttext1 {
         text-align: center;
     }
-    .playstore{
+
+    .playstore {
         padding: 6px 23px 6px 18px;
     }
-    .contant2{
+
+    .contant2 {
         background-color: #161D26;
         background-image: none;
     }
@@ -1672,6 +1734,19 @@ body {
     .frame362 {
         padding: 24px 8px 23px 14px;
         gap: 24px;
+    }
+
+    .steps {
+        align-items: flex-start;
+        padding-bottom: 32px;
+    }
+
+    .step {
+        font-size: 33px;
+        font-weight: 600;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        text-align: left;
     }
 
     .Creat {
