@@ -355,6 +355,7 @@ body {
     line-height: 24px;
     text-align: left;
     align-content: center;
+    text-wrap: nowrap;
 }
 
 .frame1 {
@@ -425,6 +426,7 @@ body {
     border-radius: 10px;
     padding: 32px 18px;
     width: 100%;
+    
 }
 
 .card-logo {
@@ -526,6 +528,7 @@ body {
 .maintext,
 .tablecards {
     border: 1px solid #E9EAF0;
+    border-radius: 0 0 10px 10px;
 }
 
 .heading01 {
@@ -1827,6 +1830,8 @@ color:  #25A1FF;
     .bgphoto {
         padding: 24px 12px;
         width: 100%;
+
+
     }
 
     .textlive {
