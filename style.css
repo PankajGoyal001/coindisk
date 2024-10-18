@@ -1527,7 +1527,7 @@ color:  #25A1FF;
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 650px) {
 
     /* maintext ---------------------------------*/
     .text01 {
@@ -1589,14 +1589,14 @@ color:  #25A1FF;
     }
 
     .maintext-res {
-        display: block;
+        /* display: block; */
+        display: inline-table;   
     }
 
     .heading01,
     .data-24h,
     .data-volume {
-        text-align: left;
-        margin-right: 10px;
+        text-align: center;
     }
 
     .title1 {
