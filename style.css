@@ -135,16 +135,19 @@ body {
     max-width: 335px;
     width: 100%;
     background-image: linear-gradient(to left, #0070E4, #25A1FF);
-    padding: 16px 20px 16px 20px;
+    padding: 16px 20px;
     border: none;
     line-height: 26px;
+    border: none;
     color: #FFFFFF;
+    border: 2px solid transparent;
     border-radius: 4px;
 }
 
 .creatbutton:hover {
     transform: scale(0.9);
-    box-shadow: #CCCED9 4px 2px 6px 2px;
+    border: 2px solid white;
+
 }
 
 .links a {
