@@ -1235,6 +1235,7 @@ body {
     text-align: left;
     max-width: 86px;
     width: 100%;
+    text-wrap: nowrap;
 }
 
 /* copyright ----------------------------------------------*/
@@ -1734,7 +1735,7 @@ body {
     .linebar87 {
         text-align: left;
     }
-    
+
     .hero-photo {
         display: flex;
         align-items: center;
