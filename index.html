@@ -16,6 +16,10 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
   </head>
 
   <body>
@@ -684,7 +688,8 @@
           <div class="newitem">
             <div class="cardtext">
               <div class="cardheading">
-                <p class="cardhead">Your Data Security is Our Priority.</p>~
+                <p class="cardhead">Your Data Security is Our Priority.</p>
+                ~
                 <p class="cardimfo">
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
@@ -787,75 +792,78 @@
           <img class="sidebarline" src="./images/Line87.svg" alt="line87" />
         </div>
         <div class="cardsphotos">
-          <img
-            class="pre-button"
-            src="./images/leftButton.svg"
-            alt="pre-button"
-          />
-
-          <div class="cards-00">
-            <div class="cards-main">
-              <div class="hero-photo">
-                <img
-                  class="user-img"
-                  src="./images/User-hero.svg"
-                  alt="User-hero"
-                />
-                <p class="sophia-text">Sophia Albert</p>
+          <!-- Swiper -->
+          <div class="pre-button">
+            <img class="pre-button" src="./images/leftButton.svg" alt="pre-button"/>
+          </div>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="cards-main1">
+                  <div class="hero-photo">
+                    <img class="user-img" src="./images/User-hero.svg" alt="User-hero"/>
+                    <p class="sophia-text">Sophia Albert</p>
+                  </div>
+                  <p class="cards-info">
+                    “ It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout. “
+                  </p>
+                </div>
               </div>
-              <p class="cards-info">
-                “ It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout. “
-              </p>
-            </div>
-
-            <div class="cards-main1">
-              <div class="hero-photo">
-                <img
-                  class="user-img"
-                  src="./images/User-hero.svg"
-                  alt="User-hero"
-                />
-                <p class="sophia-text">Sophia Albert</p>
+              <div class="swiper-slide">
+                <div class="cards-main1">
+                  <div class="hero-photo">
+                    <img
+                      class="user-img"
+                      src="./images/User-hero.svg"
+                      alt="User-hero"
+                    />
+                    <p class="sophia-text">Sophia Albert</p>
+                  </div>
+                  <p class="cards-info">
+                    “ It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout. “
+                  </p>
+                </div>
               </div>
-              <p class="cards-info">
-                “ It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout. “
-              </p>
-            </div>
-
-            <div class="cards-main">
-              <div class="hero-photo">
-                <img
-                  class="user-img"
-                  src="./images/User-hero.svg"
-                  alt="User-hero"
-                />
-                <p class="sophia-text">Sophia Albert</p>
+              <div class="swiper-slide">
+                <div class="cards-main1">
+                  <div class="hero-photo">
+                    <img
+                      class="user-img"
+                      src="./images/User-hero.svg"
+                      alt="User-hero"
+                    />
+                    <p class="sophia-text">Sophia Albert</p>
+                  </div>
+                  <p class="cards-info">
+                    “ It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout. “
+                  </p>
+                </div>
               </div>
-              <p class="cards-info">
-                “ It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout. “
-              </p>
+              <div class="swiper-slide">
+                <div class="cards-main1">
+                  <div class="hero-photo">
+                    <img class="user-img" src="./images/User-hero.svg" alt="User-hero"/>
+                    <p class="sophia-text">Sophia Albert</p>
+                  </div>
+                  <p class="cards-info">
+                    “ It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout. “
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
-
-          <img
-            class="pre-button"
-            src="./images/rightButton.svg"
-            alt="pre-button"
-          />
-        </div>
-        <div class="dotted">
-          <img class="pagination-photo1" src="./images/Hover.svg" alt="#" />
-          <img
-            class="pagination-photo01"
-            src="./images/Hover-buuton.svg"
-            alt="#"
-          />
-          <img class="pagination-photo" src="./images/Hover.svg" alt="#" />
-          <img class="pagination-photo" src="./images/Hover.svg" alt="#" />
-          <img class="pagination-photo" src="./images/Hover.svg" alt="#" />
+          <div class="pre-button1">
+            <img class="pre-button1" src="./images/rightButton.svg" alt="pre-button"/>
+          </div>
+          <div class="swiper-pagination"></div>
         </div>
       </div>
     </div>
@@ -1018,5 +1026,30 @@
         </div>
       </div>
     </div>
+
+    
+          <!-- Swiper JS -->
+          <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+          <!-- Initialize Swiper -->
+          <script>
+            var swiper = new Swiper(".mySwiper", {
+              slidesPerView: 3,
+              spaceBetween: 30,
+              loop: true,
+              autoplay: {
+                delay: 1500,
+                disableOnInteraction: false,
+              },
+              pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+              },
+              navigation: {
+                nextEl: ".pre-button1",
+                prevEl: ".pre-button",
+              },
+            });
+          </script>
   </body>
 </html>
