@@ -784,6 +784,7 @@ body {
     gap: 29px;
     color: #CCCED9;
     margin-right: 70px;
+    text-wrap: nowrap;
 }
 
 .asd01 {
@@ -953,7 +954,10 @@ body {
     align-items: center;
     padding-bottom: 80px;
 }
-
+.user-img{
+    max-width: 96px;
+    width: 100%;
+}
 .contant01 {
     padding-top: 140px ;    
     background: linear-gradient(94.21deg, rgba(232, 170, 46, 0.16) 3.29%, rgba(255, 0, 214, 0.16) 97.52%);
@@ -1554,7 +1558,7 @@ body {
 }
 
 @media screen and (max-width: 650px) {
-
+ 
     /* maintext ---------------------------------*/
     .text01 {
         font-size: 34px;
@@ -1770,6 +1774,9 @@ body {
         gap: 24px;
         padding: 24px 14px;
     }
+    .swiper-slide{
+        opacity: 1 !important;
+      }
 
     /* footer ------------------------------*/
     .allright {
@@ -1843,8 +1850,6 @@ body {
     .bgphoto {
         padding: 24px 12px;
         width: 100%;
-
-
     }
 
     .textlive {
@@ -1875,6 +1880,21 @@ body {
 
     }
 }
+
+@media screen and (max-width: 375px) {
+    .bgphoto{
+        padding: 18px 12px;
+    }
+    .time{
+        padding: 6px 14px;
+    }
+    .live{
+        padding-top: 15px;
+    }
+    .husd-coin-head{
+        font-size: 13px;
+    }
+}
 .swiper-pagination-bullet{
     background-color: #CCCED9;
     width: 10px;
@@ -1894,4 +1914,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .swiper-slide{
+    opacity: 0.6;
+  }
+  .swiper-slide-next{
+    opacity: 1 !important;
   }
