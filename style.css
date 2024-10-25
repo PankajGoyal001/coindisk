@@ -383,11 +383,13 @@ body {
 /* upcoming -------------------------------------------------*/
 .slider-icon {
     width: 100%;
+    padding-top: 80px;
 }
 
 .contant {
     margin-top: 140px;
     backdrop-filter: blur(140px);
+
 }
 
 .headtext {
@@ -408,8 +410,11 @@ body {
     display: flex;
     gap: 30px;
     overflow: scroll;
-    padding-bottom: 80px;
 }
+.cards1:hover > :not(:hover){
+    opacity: 0.6;
+}
+
 
 .cardsinformation {
     display: flex;
