@@ -16,10 +16,6 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
   </head>
 
   <body>
@@ -793,26 +789,17 @@
         <div class="cardsphotos">
           <!-- Swiper -->
           <div class="pre-button">
-            <img class="pre-button" src="./images/leftButton.svg" alt="pre-button"/>
+            <img
+              class="pre-button"
+              src="./images/leftButton.svg"
+              alt="pre-button"
+            />
           </div>
           <div class="swiper mySwiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <div class="cards-main1">
                   <div class="hero-photo">
-                    <img class="user-img" src="./images/User-hero.svg" alt="User-hero"/>
-                    <p class="sophia-text">Sophia Albert</p>
-                  </div>
-                  <p class="cards-info">
-                    “ It is a long established fact that a reader will be
-                    distracted by the readable content of a page when looking at
-                    its layout. “
-                  </p>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="cards-main1">
-                  <div class="hero-photo">
                     <img
                       class="user-img"
                       src="./images/User-hero.svg"
@@ -847,7 +834,28 @@
               <div class="swiper-slide">
                 <div class="cards-main1">
                   <div class="hero-photo">
-                    <img class="user-img" src="./images/User-hero.svg" alt="User-hero"/>
+                    <img
+                      class="user-img"
+                      src="./images/User-hero.svg"
+                      alt="User-hero"
+                    />
+                    <p class="sophia-text">Sophia Albert</p>
+                  </div>
+                  <p class="cards-info">
+                    “ It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout. “
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="cards-main1">
+                  <div class="hero-photo">
+                    <img
+                      class="user-img"
+                      src="./images/User-hero.svg"
+                      alt="User-hero"
+                    />
                     <p class="sophia-text">Sophia Albert</p>
                   </div>
                   <p class="cards-info">
@@ -860,7 +868,11 @@
             </div>
           </div>
           <div class="pre-button1">
-            <img class="pre-button1" src="./images/rightButton.svg" alt="pre-button"/>
+            <img
+              class="pre-button1"
+              src="./images/rightButton.svg"
+              alt="pre-button"
+            />
           </div>
           <div class="swiper-pagination"></div>
         </div>
@@ -973,27 +985,34 @@
           <p class="texthead1">Download App</p>
           <div class="information7-res">
             <div class="download-1">
-              <div class="playstore">
-                <img
-                  class="playstorephoto"
-                  src="./images/playstore-icon.svg"
-                  alt=""
-                />
-                <div class="playtext">
-                  <p class="playtext1">get it on</p>
-                  <p class="playtext2">Google Play</p>
+              <a
+                href="https://play.google.com/store/games?hl=en"
+                target="_blank"
+              >
+                <div class="playstore">
+                  <img
+                    class="playstorephoto"
+                    src="./images/playstore-icon.svg"
+                    alt="playstore-icon"
+                  />
+                  <div class="playtext">
+                    <p class="playtext1">get it on</p>
+                    <p class="playtext2">Google Play</p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
 
             <div class="download-1">
-              <div class="playstore">
-                <img src="./images/apple-icon.svg" alt="apple-icon" />
-                <div class="playtext">
-                  <p class="playtext1">download on</p>
-                  <p class="playtext2">App Store</p>
+              <a href="https://www.apple.com/in/app-store/">
+                <div class="playstore">
+                  <img src="./images/apple-icon.svg" alt="apple-icon" />
+                  <div class="playtext">
+                    <p class="playtext1">download on</p>
+                    <p class="playtext2">App Store</p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>
@@ -1026,45 +1045,43 @@
       </div>
     </div>
 
-    
-          <!-- Swiper JS -->
-          <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-          <!-- Initialize Swiper -->
-          <script>
-            var swiper = new Swiper(".mySwiper", {
-              slidesPerView: 3,
-              spaceBetween: 30,
-              loop: true,
-              autoplay: {
-                delay: 1500,
-                disableOnInteraction: false,
-              },
-              pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-              },
-              navigation: {
-                nextEl: ".pre-button1",
-                prevEl: ".pre-button",
-              },
-              KeyboardEvent: true,
-              MouseEvent: true,
-              breakpoints: {
-                1024: {
-                  slidesPerView: 3,
-                },
-                650: {
-                  slidesPerView: 2,
-                },
-                0: {
-                  slidesPerView: 1,
-                }
-              }
-              
-              
-            });
-            
-          </script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        loop: true,
+        // autoplay: {
+        //   delay: 1500,
+        //   disableOnInteraction: false,
+        // },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".pre-button1",
+          prevEl: ".pre-button",
+        },
+
+        KeyboardEvent: true,
+        centeredSlides: true,
+        MouseEvent: true,
+        breakpoints: {
+          1024: {
+            slidesPerView: 2.5,
+          },
+          650: {
+            slidesPerView: 2,
+          },
+          0: {
+            slidesPerView: 1,
+          },
+        },
+      });
+    </script>
   </body>
 </html>

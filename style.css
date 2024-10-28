@@ -6,16 +6,14 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    position: relative;
+    height: 100%;
+    background: #eee;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
 }
-
-
-/* coommon css  */
-
-
-/* coommon css  */
-
-
-
 
 .maincontainer {
     background-image: url(./images/banner-background.png);
@@ -411,7 +409,8 @@ body {
     gap: 30px;
     overflow: scroll;
 }
-.cards1:hover > :not(:hover){
+
+.cards1:hover> :not(:hover) {
     opacity: 0.6;
 }
 
@@ -959,12 +958,14 @@ body {
     align-items: center;
     padding-bottom: 80px;
 }
-.user-img{
+
+.user-img {
     max-width: 96px;
     width: 100%;
 }
+
 .contant01 {
-    padding-top: 140px ;    
+    padding-top: 140px;
     background: linear-gradient(94.21deg, rgba(232, 170, 46, 0.16) 3.29%, rgba(255, 0, 214, 0.16) 97.52%);
     backdrop-filter: blur(140px);
     padding-bottom: 80px;
@@ -988,9 +989,12 @@ body {
     display: flex;
     gap: 53px;
 }
-.pre-button,.pre-button1 {
+
+.pre-button,
+.pre-button1 {
     align-content: center;
 }
+
 .pre-button:hover {
     transform: scale(0.8);
 }
@@ -1043,6 +1047,7 @@ body {
     letter-spacing: 0.02em;
     text-align: center;
 }
+
 .downloader {
     width: Fixed (170px)px;
     height: Hug (50px)px;
@@ -1285,6 +1290,7 @@ body {
 .ctabutton,
 .viewmore,
 .creatbutton,
+.playstore,
 .ctastart,
 .home-icon,
 .pre-button,
@@ -1293,27 +1299,14 @@ body {
     cursor: pointer;
 }
 
-body {
-    position: relative;
-    height: 100%;
-  }
 
-  body {
-    background: #eee;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    color: #000;
-    margin: 0;
-    padding: 0;
-  }
-
-  .swiper {
+.swiper {
     width: 100%;
     height: 100%;
     border-radius: 10px;
-  }
+}
 
-  .swiper-slide {
+.swiper-slide {
     text-align: center;
     font-size: 18px;
     background: #fff;
@@ -1321,19 +1314,19 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-  }
+}
 
-  .swiper-slide img {
+.swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
+}
 
-  .swiper {
+.swiper {
     margin-left: auto;
     margin-right: auto;
-  }
+}
 
 @media screen and (max-width: 1024px) {
 
@@ -1444,10 +1437,11 @@ body {
 
 
     /* testimonials ---------------------------------------- */
-    .pre-button, .pre-button1 {
+    .pre-button,
+    .pre-button1 {
         display: none;
     }
-    
+
 
     /* footer -----------------------------------------------*/
     .information05,
@@ -1482,6 +1476,7 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+
     /* bitcoin -------------------------------------------*/
     .cards {
         display: grid;
@@ -1563,7 +1558,7 @@ body {
 }
 
 @media screen and (max-width: 650px) {
- 
+
     /* maintext ---------------------------------*/
     .text01 {
         font-size: 34px;
@@ -1742,6 +1737,7 @@ body {
         padding-bottom: 40px;
         align-items: flex-start;
     }
+
     .linebar87 {
         text-align: left;
     }
@@ -1770,18 +1766,21 @@ body {
         line-height: 22px;
         text-align: left;
     }
-    .hero-photo{
+
+    .hero-photo {
         justify-content: left;
         align-items: center;
-        
+
     }
-    .cards-main1{
+
+    .cards-main1 {
         gap: 24px;
         padding: 24px 14px;
     }
-    .swiper-slide{
+
+    .swiper-slide {
         opacity: 1 !important;
-      }
+    }
 
     /* footer ------------------------------*/
     .allright {
@@ -1887,42 +1886,50 @@ body {
 }
 
 @media screen and (max-width: 375px) {
-    .bgphoto{
+    .bgphoto {
         padding: 18px 12px;
     }
-    .time{
+
+    .time {
         padding: 6px 14px;
     }
-    .live{
+
+    .live {
         padding-top: 15px;
     }
-    .husd-coin-head{
+
+    .husd-coin-head {
         font-size: 13px;
     }
 }
-.swiper-pagination-bullet{
+
+.swiper-pagination-bullet {
     background-color: #CCCED9;
     width: 10px;
     height: 10px;
-  }
-  .swiper-pagination-bullet-active{
+}
+
+.swiper-pagination-bullet-active {
     width: 22px !important;
     height: 22px !important;
     background: linear-gradient(94.58deg, #25A1FF 0%, #0070E4 100%) !important;
-    border: 5px solid white ;
+    border: 5px solid white;
     outline: 1px solid #0070E4;
-     
-  }
-  .swiper-pagination{
-   
-    height:22px;
+
+}
+
+.swiper-pagination {
+
+    height: 22px;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  .swiper-slide{
+}
+
+.swiper-slide {
     opacity: 0.6;
-  }
-  .swiper-slide-next{
+}
+
+.swiper-slide-active {
     opacity: 1 !important;
-  }
+}
